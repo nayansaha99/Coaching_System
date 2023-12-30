@@ -147,7 +147,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <ul className={`mt-4 right-16 ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <ul className={`mt-4 right-16 absolute ${isMenuOpen ? 'block' : 'hidden'}`}>
           <li><Link className="text-green-600 hover:text-gray-500 font-bold" href="/">Home</Link></li>
           <li><Edexcel /></li>
           <li><Link className="text-green-600 hover:text-gray-500 font-bold" href="/teachers">Teachers</Link></li>
